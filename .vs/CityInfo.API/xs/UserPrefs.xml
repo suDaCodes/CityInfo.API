@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{CA91CE70-C413-43A8-96AD-499EFDF133C2}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="CityInfo.API/Properties/launchSettings.json">
+    <Files>
+      <File FileName="CityInfo.API/Properties/launchSettings.json" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CityInfo.API" expanded="True">
+            <Node name="CityInfo.API" expanded="True" selected="True">
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CityInfo.API PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+</Properties>
