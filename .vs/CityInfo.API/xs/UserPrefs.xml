@@ -3,17 +3,16 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="CityInfo.API/Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CityInfo.API/Program.cs">
     <Files>
-      <File FileName="CityInfo.API/Properties/launchSettings.json" Line="14" Column="1" />
+      <File FileName="CityInfo.API/Properties/launchSettings.json" Line="29" Column="2" />
+      <File FileName="CityInfo.API/Program.cs" Line="21" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CityInfo.API" expanded="True">
-            <Node name="CityInfo.API" expanded="True" selected="True">
-              <Node name="Properties" expanded="True" />
-            </Node>
+          <Node name="CityInfo.API" expanded="True" selected="True">
+            <Node name="CityInfo.API" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -24,5 +23,5 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.CityInfo.API PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.CityInfo.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
