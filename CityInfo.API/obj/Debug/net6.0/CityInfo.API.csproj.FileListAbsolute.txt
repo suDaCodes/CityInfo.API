@@ -52,3 +52,8 @@
 /Users/sule/Documents/Projects/CityInfo.API/CityInfo.API/obj/Debug/net6.0/CityInfo.API.pdb
 /Users/sule/Documents/Projects/CityInfo.API/CityInfo.API/obj/Debug/net6.0/CityInfo.API.genruntimeconfig.cache
 /Users/sule/Documents/Projects/CityInfo.API/CityInfo.API/obj/Debug/net6.0/ref/CityInfo.API.dll
+/Users/sudacode/Projects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/aspnetcore6_fundamentals_postman.json
+/Users/sudacode/Projects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/sudacode/Projects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/sudacode/Projects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/sudacode/Projects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
