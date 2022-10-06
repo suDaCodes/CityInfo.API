@@ -5,8 +5,7 @@ using System.Threading.Tasks;
 
 namespace CityInfo.API.Services
 {
-
-    public class LocalMailService : IMailService
+    public class CloudMailService : IMailService
     {
         private string _mailFrom = "noreply@company.com";
         private string _mailTo = "asusudev@gmail.com";
@@ -14,7 +13,7 @@ namespace CityInfo.API.Services
         public void Send(string subject, string message)
         {
             // send mail - output to console window
-            Console.WriteLine($"Mail from {_mailFrom} to {_mailTo}, " + $"with {nameof(LocalMailService)}.");
+            Console.WriteLine($"Mail from {_mailFrom} to {_mailTo}, " + $"with {nameof(CloudMailService)}.");
             Console.WriteLine($"Subject: {subject}");
             Console.WriteLine($"Message: {message}");
         }

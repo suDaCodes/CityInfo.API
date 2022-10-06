@@ -8,7 +8,7 @@ namespace CityInfo.API
 
         // It's a static property, this's a singleton patern network
         // 
-        public static CitiesDataStore Current { get; } = new CitiesDataStore();
+        // public static CitiesDataStore Current { get; } = new CitiesDataStore();
 
         public CitiesDataStore()
         {
