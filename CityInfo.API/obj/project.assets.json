@@ -1273,19 +1273,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/sule/.nuget/packages/": {}
+    "/Users/sudacode/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sule/Documents/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
+      "projectUniqueName": "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
       "projectName": "CityInfo.API",
-      "projectPath": "/Users/sule/Documents/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
-      "packagesPath": "/Users/sule/.nuget/packages/",
-      "outputPath": "/Users/sule/Documents/Projects/CityInfo.API/CityInfo.API/obj/",
+      "projectPath": "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
+      "packagesPath": "/Users/sudacode/.nuget/packages/",
+      "outputPath": "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/sule/.nuget/NuGet/NuGet.Config"
+        "/Users/sudacode/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
