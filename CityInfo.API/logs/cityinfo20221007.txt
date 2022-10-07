@@ -1,0 +1,66 @@
+2022-10-07 23:30:28.403 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-10-07 23:30:28.469 +07:00 [DBG] Hosting starting
+2022-10-07 23:30:28.505 +07:00 [INF] Now listening on: http://localhost:4249
+2022-10-07 23:30:28.505 +07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2022-10-07 23:30:28.505 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-07 23:30:28.506 +07:00 [INF] Hosting environment: Development
+2022-10-07 23:30:28.506 +07:00 [INF] Content root path: /Users/sule/Projects/CityInfo.API/CityInfo.API/
+2022-10-07 23:30:28.506 +07:00 [DBG] Hosting started
+2022-10-07 23:30:28.564 +07:00 [DBG] Connection id "0HML8G4VE4UQN" accepted.
+2022-10-07 23:30:28.569 +07:00 [DBG] Connection id "0HML8G4VE4UQN" started.
+2022-10-07 23:30:29.532 +07:00 [DBG] Connection id "0HML8G4VE4UQN" received FIN.
+2022-10-07 23:30:29.535 +07:00 [DBG] Connection id "0HML8G4VE4UQN" sending FIN because: "The client closed the connection."
+2022-10-07 23:30:29.540 +07:00 [DBG] Connection id "0HML8G4VE4UQN" disconnecting.
+2022-10-07 23:30:29.541 +07:00 [DBG] Connection id "0HML8G4VE4UQN" stopped.
+2022-10-07 23:30:29.612 +07:00 [DBG] Connection id "0HML8G4VE4UQO" accepted.
+2022-10-07 23:30:29.621 +07:00 [DBG] Connection id "0HML8G4VE4UQP" accepted.
+2022-10-07 23:30:29.642 +07:00 [DBG] Connection id "0HML8G4VE4UQP" started.
+2022-10-07 23:30:29.642 +07:00 [DBG] Connection id "0HML8G4VE4UQO" started.
+2022-10-07 23:30:29.688 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:4249/ - -
+2022-10-07 23:30:29.689 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-10-07 23:30:29.709 +07:00 [DBG] The request path  does not match the path filter
+2022-10-07 23:30:29.710 +07:00 [WRN] Failed to determine the https port for redirect.
+2022-10-07 23:30:29.723 +07:00 [DBG] 1 candidate(s) found for the request path '/'
+2022-10-07 23:30:29.726 +07:00 [DBG] Endpoint 'CityInfo.API.DefaultController.Index (CityInfo.API)' with route pattern '' is valid for the request path '/'
+2022-10-07 23:30:29.726 +07:00 [DBG] Request matched endpoint 'CityInfo.API.DefaultController.Index (CityInfo.API)'
+2022-10-07 23:30:29.727 +07:00 [INF] Executing endpoint 'CityInfo.API.DefaultController.Index (CityInfo.API)'
+2022-10-07 23:30:29.731 +07:00 [INF] Route matched with {action = "Index", controller = "Default"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CityInfo.API.DefaultController (CityInfo.API).
+2022-10-07 23:30:29.731 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-10-07 23:30:29.731 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-10-07 23:30:29.731 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2022-10-07 23:30:29.731 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-10-07 23:30:29.731 +07:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2022-10-07 23:30:29.732 +07:00 [DBG] Executing controller factory for controller CityInfo.API.DefaultController (CityInfo.API)
+2022-10-07 23:30:29.732 +07:00 [DBG] Executed controller factory for controller CityInfo.API.DefaultController (CityInfo.API)
+2022-10-07 23:30:29.734 +07:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2022-10-07 23:30:29.736 +07:00 [INF] Executed action CityInfo.API.DefaultController.Index (CityInfo.API) in 2.566ms
+2022-10-07 23:30:29.737 +07:00 [INF] Executed endpoint 'CityInfo.API.DefaultController.Index (CityInfo.API)'
+2022-10-07 23:30:29.741 +07:00 [DBG] Connection id "0HML8G4VE4UQO" completed keep alive response.
+2022-10-07 23:30:29.742 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:4249/ - - - 302 0 - 55.8885ms
+2022-10-07 23:30:29.758 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:4249/swagger - -
+2022-10-07 23:30:29.758 +07:00 [DBG] Connection id "0HML8G4VE4UQO" completed keep alive response.
+2022-10-07 23:30:29.758 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:4249/swagger - - - 301 0 - 0.8048ms
+2022-10-07 23:30:29.777 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:4249/swagger/index.html - -
+2022-10-07 23:30:29.807 +07:00 [DBG] Connection id "0HML8G4VE4UQO" completed keep alive response.
+2022-10-07 23:30:29.807 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:4249/swagger/index.html - - - 200 - text/html;charset=utf-8 29.9685ms
+2022-10-07 23:30:29.814 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:4249/swagger/swagger-ui.css - -
+2022-10-07 23:30:29.814 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:4249/swagger/swagger-ui-bundle.js - -
+2022-10-07 23:30:29.814 +07:00 [DBG] Connection id "0HML8G4VE4UQQ" accepted.
+2022-10-07 23:30:29.814 +07:00 [DBG] Connection id "0HML8G4VE4UQQ" started.
+2022-10-07 23:30:29.815 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:4249/swagger/swagger-ui-standalone-preset.js - -
+2022-10-07 23:30:29.952 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-10-07 23:30:29.952 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-10-07 23:30:30.032 +07:00 [DBG] Connection id "0HML8G4VE4UQQ" completed keep alive response.
+2022-10-07 23:30:30.032 +07:00 [DBG] Connection id "0HML8G4VE4UQO" completed keep alive response.
+2022-10-07 23:30:30.033 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:4249/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 218.0055ms
+2022-10-07 23:30:30.033 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:4249/swagger/swagger-ui.css - - - 200 143632 text/css 219.1244ms
+2022-10-07 23:30:30.034 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-10-07 23:30:30.034 +07:00 [DBG] Connection id "0HML8G4VE4UQP" completed keep alive response.
+2022-10-07 23:30:30.034 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:4249/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 220.4174ms
+2022-10-07 23:30:30.119 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:4249/swagger/v1/swagger.json - -
+2022-10-07 23:30:30.125 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:4249/swagger/favicon-32x32.png - -
+2022-10-07 23:30:30.125 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-10-07 23:30:30.125 +07:00 [DBG] Connection id "0HML8G4VE4UQQ" completed keep alive response.
+2022-10-07 23:30:30.125 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:4249/swagger/favicon-32x32.png - - - 200 628 image/png 0.3816ms
+2022-10-07 23:30:30.221 +07:00 [DBG] Connection id "0HML8G4VE4UQP" completed keep alive response.
+2022-10-07 23:30:30.221 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:4249/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.0188ms
