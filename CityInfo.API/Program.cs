@@ -1,6 +1,8 @@
 ﻿using CityInfo.API;
+using CityInfo.API.DbContexts;
 using CityInfo.API.Services;
 using Microsoft.AspNetCore.StaticFiles;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 // Configure Serilog
@@ -34,6 +36,8 @@ builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
 
 // register DataStore
 builder.Services.AddSingleton<CitiesDataStore>();
+
+builder.Services.AddDbContext<CityInfoContext>(dbContextOption => dbContextOption.UseSqlite("Data Source=CityInfo.db"));
 
 var app = builder.Build();
 
