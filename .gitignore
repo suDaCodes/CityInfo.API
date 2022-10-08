@@ -1,2 +1,10 @@
 CityInfo.API/obj/Debug/net6.0/project.razor.json
 CityInfo.API/obj/Debug/net6.0/CityInfo.API.assets.cache
+CityInfo.API/logs/cityinfo20221007.txt
+*.cache
+*.props
+*.dll
+*.pdb
+CityInfo.API/obj/project.assets.json
+CityInfo.API/obj/project.nuget.cache
+CityInfo.API/obj/staticwebassets.pack.sentinel
