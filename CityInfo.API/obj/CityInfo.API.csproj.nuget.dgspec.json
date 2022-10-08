@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sule/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj": {}
+    "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj": {}
   },
   "projects": {
-    "/Users/sule/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj": {
+    "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sule/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
+        "projectUniqueName": "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
         "projectName": "CityInfo.API",
-        "projectPath": "/Users/sule/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
-        "packagesPath": "/Users/sule/.nuget/packages/",
-        "outputPath": "/Users/sule/Projects/CityInfo.API/CityInfo.API/obj/",
+        "projectPath": "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
+        "packagesPath": "/Users/sudacode/.nuget/packages/",
+        "outputPath": "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sule/.nuget/NuGet/NuGet.Config"
+          "/Users/sudacode/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -51,6 +51,12 @@
               "version": "[6.0.9, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.9, )"
             },

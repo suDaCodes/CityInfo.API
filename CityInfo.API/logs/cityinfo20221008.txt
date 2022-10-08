@@ -1,0 +1,122 @@
+2022-10-08 10:01:27.393 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-10-08 10:01:27.741 +07:00 [INF] Entity Framework Core 6.0.9 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.9' with options: None
+2022-10-08 10:01:27.799 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-10-08 10:01:27.805 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-10-08 10:01:27.848 +07:00 [DBG] 'CityInfoContext' disposed.
+2022-10-08 10:05:30.702 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-10-08 10:05:31.047 +07:00 [INF] Entity Framework Core 6.0.9 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.9' with options: None
+2022-10-08 10:05:31.363 +07:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.368 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.377 +07:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.378 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.379 +07:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.379 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.384 +07:00 [DBG] Opened connection to database 'main' on server '/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.db'.
+2022-10-08 10:05:31.389 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-08 10:05:31.394 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2022-10-08 10:05:31.399 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2022-10-08 10:05:31.409 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2022-10-08 10:05:31.410 +07:00 [DBG] Closing connection to database 'main' on server '/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.db'.
+2022-10-08 10:05:31.412 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.451 +07:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-10-08 10:05:31.453 +07:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-10-08 10:05:31.465 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-08 10:05:31.465 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-08 10:05:31.465 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.465 +07:00 [DBG] Opened connection to database 'main' on server '/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.db'.
+2022-10-08 10:05:31.466 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2022-10-08 10:05:31.467 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2022-10-08 10:05:31.469 +07:00 [DBG] Closing connection to database 'main' on server '/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.db'.
+2022-10-08 10:05:31.469 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.470 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.470 +07:00 [DBG] Opened connection to database 'main' on server '/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.db'.
+2022-10-08 10:05:31.476 +07:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-10-08 10:05:31.476 +07:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-10-08 10:05:31.476 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.476 +07:00 [DBG] Opened connection to database 'main' on server '/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.db'.
+2022-10-08 10:05:31.477 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-10-08 10:05:31.478 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-10-08 10:05:31.478 +07:00 [DBG] Closing connection to database 'main' on server '/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.db'.
+2022-10-08 10:05:31.478 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.479 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-10-08 10:05:31.479 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-10-08 10:05:31.479 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.479 +07:00 [DBG] Opened connection to database 'main' on server '/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.db'.
+2022-10-08 10:05:31.479 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-10-08 10:05:31.480 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-10-08 10:05:31.481 +07:00 [DBG] A data reader was disposed.
+2022-10-08 10:05:31.481 +07:00 [DBG] Closing connection to database 'main' on server '/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.db'.
+2022-10-08 10:05:31.481 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.486 +07:00 [INF] Applying migration '20221008030127_InitDb'.
+2022-10-08 10:05:31.497 +07:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.497 +07:00 [DBG] Opened connection to database 'main' on server '/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.db'.
+2022-10-08 10:05:31.498 +07:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-10-08 10:05:31.499 +07:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-10-08 10:05:31.499 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-08 10:05:31.499 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-08 10:05:31.500 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2022-10-08 10:05:31.500 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2022-10-08 10:05:31.500 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-08 10:05:31.500 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-08 10:05:31.500 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2022-10-08 10:05:31.503 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointsOfInterest" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointsOfInterest" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointsOfInterest_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2022-10-08 10:05:31.505 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-08 10:05:31.505 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-08 10:05:31.505 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_CityId" ON "PointsOfInterest" ("CityId");
+2022-10-08 10:05:31.505 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointsOfInterest_CityId" ON "PointsOfInterest" ("CityId");
+2022-10-08 10:05:31.509 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-10-08 10:05:31.509 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-10-08 10:05:31.509 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20221008030127_InitDb', '6.0.9');
+2022-10-08 10:05:31.511 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20221008030127_InitDb', '6.0.9');
+2022-10-08 10:05:31.511 +07:00 [DBG] Committing transaction.
+2022-10-08 10:05:31.513 +07:00 [DBG] Committed transaction.
+2022-10-08 10:05:31.513 +07:00 [DBG] Disposing transaction.
+2022-10-08 10:05:31.513 +07:00 [DBG] Closing connection to database 'main' on server '/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.db'.
+2022-10-08 10:05:31.513 +07:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-10-08 10:05:31.514 +07:00 [DBG] 'CityInfoContext' disposed.
