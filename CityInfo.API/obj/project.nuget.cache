@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Jc3sNbYd+ifm+OYvd0PmvUpfjpzeMGjF/4TmfT7zkGzeAbBr4FtpOeO47oO9UEd5aems93+F6ijuU4a8VuGSA==",
+  "dgSpecHash": "lRD+fLNo0S0bfX864hnqvVqq4buOan4gwvD3ah4/E/FnRsSqKSqiPkI7IyeSNy1g2nXaJGkFM6AJ7n8AQmVn9A==",
   "success": true,
-  "projectFilePath": "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
+  "projectFilePath": "/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
   "expectedPackageFiles": [
     "/Users/sudacode/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.9/microsoft.aspnetcore.jsonpatch.6.0.9.nupkg.sha512",

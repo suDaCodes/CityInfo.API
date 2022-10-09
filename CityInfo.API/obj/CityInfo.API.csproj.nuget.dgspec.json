@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj": {}
+    "/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj": {}
   },
   "projects": {
-    "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj": {
+    "/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
+        "projectUniqueName": "/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
         "projectName": "CityInfo.API",
-        "projectPath": "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
+        "projectPath": "/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
         "packagesPath": "/Users/sudacode/.nuget/packages/",
-        "outputPath": "/Users/sudacode/Projects/CityInfo.API/CityInfo.API/obj/",
+        "outputPath": "/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sudacode/.nuget/NuGet/NuGet.Config"
