@@ -41,7 +41,11 @@ builder.Services.AddDbContext<CityInfoContext>(
     dbContextOption => dbContextOption.UseSqlite(
         builder.Configuration["ConnectionStrings:CityInfoDBConnectionString"]));
 
+// add CityInfoRepository as a service
 builder.Services.AddScoped<ICityInfoRepository, CityInfoRepository>();
+
+// add AutoMapper
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();
 

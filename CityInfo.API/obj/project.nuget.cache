@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lRD+fLNo0S0bfX864hnqvVqq4buOan4gwvD3ah4/E/FnRsSqKSqiPkI7IyeSNy1g2nXaJGkFM6AJ7n8AQmVn9A==",
+  "dgSpecHash": "FEj1MrbAK4at8vzvQjTQZJFwTZtyNm/5PsmOt6gmMftcicI7GbFMsrIex77gXFUCJdiQ9XbhoagYSrJDSuyFxg==",
   "success": true,
   "projectFilePath": "/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
   "expectedPackageFiles": [
+    "/Users/sudacode/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
+    "/Users/sudacode/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.9/microsoft.aspnetcore.jsonpatch.6.0.9.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.9/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.9.nupkg.sha512",

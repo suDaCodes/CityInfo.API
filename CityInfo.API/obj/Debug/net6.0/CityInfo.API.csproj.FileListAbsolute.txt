@@ -242,3 +242,5 @@
 /Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/obj/Debug/net6.0/CityInfo.API.pdb
 /Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/obj/Debug/net6.0/CityInfo.API.genruntimeconfig.cache
 /Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/obj/Debug/net6.0/ref/CityInfo.API.dll
+/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/AutoMapper.dll
+/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
