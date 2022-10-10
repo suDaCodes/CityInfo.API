@@ -35,11 +35,13 @@ builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
 #endif
 
 // register DataStore
-builder.Services.AddSingleton<CitiesDataStore>();
+//builder.Services.AddSingleton<CitiesDataStore>();
 
 builder.Services.AddDbContext<CityInfoContext>(
     dbContextOption => dbContextOption.UseSqlite(
         builder.Configuration["ConnectionStrings:CityInfoDBConnectionString"]));
+
+builder.Services.AddScoped<ICityInfoRepository, CityInfoRepository>();
 
 var app = builder.Build();
 
