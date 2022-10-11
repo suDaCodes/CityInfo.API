@@ -14,7 +14,13 @@ public interface ICityInfoRepository
 
     Task<bool> CityExistsAsync(int cityId);
 
+    // why we use async here even if we can use void?
+    // because in the implementation we call into GetCityAsync.
     Task AddPointOfInterestForCityAsync(int cityId, PointOfInterest pointOfInterest);
+
+    // it isn't an async method, just like "add" method, it's an in-memory action, not an I/O operation
+    // so async does not make sense here.
+    void RemovePointOfInterest(PointOfInterest pointOfInterest);
 
     Task<bool> SaveChangesAsync();
 }
