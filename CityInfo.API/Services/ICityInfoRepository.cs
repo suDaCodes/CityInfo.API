@@ -6,7 +6,7 @@ public interface ICityInfoRepository
 {
     Task<IEnumerable<City>> GetCitiesAsync();
 
-    Task<IEnumerable<City>> GetCitiesAsync(string? name);
+    Task<IEnumerable<City>> GetCitiesAsync(string? name, string? searchQuery, int pageNumber, int pageSize);
 
     Task<City?> GetCityAsync(int cityId, bool includePointsOfInterest);
 
@@ -25,4 +25,5 @@ public interface ICityInfoRepository
     void RemovePointOfInterest(PointOfInterest pointOfInterest);
 
     Task<bool> SaveChangesAsync();
+    
 }

@@ -11,6 +11,7 @@ namespace CityInfo.API.Controllers
     {
         private readonly ICityInfoRepository _repository;
         private readonly IMapper _mapper;
+        private const int maxCitiesPageSize = 20;
 
         public CitiesController(ICityInfoRepository repository, IMapper mapper)
         {
@@ -19,9 +20,14 @@ namespace CityInfo.API.Controllers
         }
         
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CityWithoutPointsOfInterestDTO>>> GetCities(string? name)
+        public async Task<ActionResult<IEnumerable<CityWithoutPointsOfInterestDTO>>> GetCities(string? name, string? searchQuery, 
+                                                                                                int pageNumber, int pageSize = 10)
         {
-            var cityEntities = await _repository.GetCitiesAsync(name);
+            if (pageSize > maxCitiesPageSize) pageSize = maxCitiesPageSize;
+            
+            
+            
+            var cityEntities = await _repository.GetCitiesAsync(name, searchQuery, pageNumber, pageSize);
             
             // map entities -> dto
             return Ok(_mapper.Map<IEnumerable<CityWithoutPointsOfInterestDTO>>(cityEntities));
