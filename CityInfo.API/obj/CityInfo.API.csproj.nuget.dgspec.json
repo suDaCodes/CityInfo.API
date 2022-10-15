@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj": {}
+    "/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj": {}
   },
   "projects": {
-    "/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj": {
+    "/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
+        "projectUniqueName": "/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
         "projectName": "CityInfo.API",
-        "projectPath": "/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
-        "packagesPath": "/Users/sule/.nuget/packages/",
-        "outputPath": "/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/obj/",
+        "projectPath": "/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
+        "packagesPath": "/Users/sudacode/.nuget/packages/",
+        "outputPath": "/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sule/.nuget/NuGet/NuGet.Config"
+          "/Users/sudacode/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

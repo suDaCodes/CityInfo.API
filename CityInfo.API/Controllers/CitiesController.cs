@@ -1,3 +1,4 @@
+using System.Text.Json;
 using AutoMapper;
 using CityInfo.API.Models;
 using CityInfo.API.Services;
@@ -27,7 +28,10 @@ namespace CityInfo.API.Controllers
             
             
             
-            var cityEntities = await _repository.GetCitiesAsync(name, searchQuery, pageNumber, pageSize);
+            var (cityEntities, paginationMetadata) = 
+                await _repository.GetCitiesAsync(name, searchQuery, pageNumber, pageSize);
+            
+            Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(paginationMetadata));
             
             // map entities -> dto
             return Ok(_mapper.Map<IEnumerable<CityWithoutPointsOfInterestDTO>>(cityEntities));

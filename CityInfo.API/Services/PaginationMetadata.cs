@@ -12,6 +12,6 @@ public class PaginationMetadata
         TotalItemCount = totalItemCount;
         PageSize = pageSize;
         CurrentPage = currentPage;
-        TotalPageCount = TotalItemCount / PageSize;
+        TotalPageCount = (int)Math.Ceiling(TotalItemCount / (double)PageSize);
     }
 }
