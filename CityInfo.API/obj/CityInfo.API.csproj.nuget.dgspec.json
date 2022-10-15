@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[6.0.9, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.24.0, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -75,6 +79,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.24.0, )"
             }
           },
           "imports": [

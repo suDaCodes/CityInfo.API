@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FEj1MrbAK4at8vzvQjTQZJFwTZtyNm/5PsmOt6gmMftcicI7GbFMsrIex77gXFUCJdiQ9XbhoagYSrJDSuyFxg==",
+  "dgSpecHash": "3qobpMj/GvDhG0NhmOe3DxRJNCX7tiNvNs5KoGeRRHVBnP+QHGpqmfORGpQQ3wJcvP5oHQSlATt8gQT2+UvmiA==",
   "success": true,
   "projectFilePath": "/Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,12 @@
     "/Users/sudacode/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/microsoft.extensions.options.configurationextensions/2.0.0/microsoft.extensions.options.configurationextensions.2.0.0.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/sudacode/.nuget/packages/microsoft.identitymodel.abstractions/6.24.0/microsoft.identitymodel.abstractions.6.24.0.nupkg.sha512",
+    "/Users/sudacode/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.24.0/microsoft.identitymodel.jsonwebtokens.6.24.0.nupkg.sha512",
+    "/Users/sudacode/.nuget/packages/microsoft.identitymodel.logging/6.24.0/microsoft.identitymodel.logging.6.24.0.nupkg.sha512",
+    "/Users/sudacode/.nuget/packages/microsoft.identitymodel.tokens/6.24.0/microsoft.identitymodel.tokens.6.24.0.nupkg.sha512",
+    "/Users/sudacode/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/sudacode/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
@@ -58,8 +64,12 @@
     "/Users/sudacode/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "/Users/sudacode/.nuget/packages/system.identitymodel.tokens.jwt/6.24.0/system.identitymodel.tokens.jwt.6.24.0.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/sudacode/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/sudacode/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "/Users/sudacode/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/Users/sudacode/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512"
   ],
