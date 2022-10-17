@@ -24,6 +24,8 @@ public interface ICityInfoRepository
     // so async does not make sense here.
     void RemovePointOfInterest(PointOfInterest pointOfInterest);
 
+    Task<bool> CityNameMatchesCityId(string? cityName, int cityId);
+
     Task<bool> SaveChangesAsync();
     
 }

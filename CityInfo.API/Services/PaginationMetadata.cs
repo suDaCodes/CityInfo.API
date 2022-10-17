@@ -2,10 +2,10 @@ namespace CityInfo.API.Services;
 
 public class PaginationMetadata
 {
-    public int TotalItemCount { get; set; }
-    public int TotalPageCount { get; set; }
-    public int PageSize { get; set; }
-    public int CurrentPage { get; set; }
+    private int TotalItemCount { get; set; }
+    private int TotalPageCount { get; set; }
+    private int PageSize { get; set; }
+    private int CurrentPage { get; set; }
 
     public PaginationMetadata(int totalItemCount, int pageSize, int currentPage)
     {

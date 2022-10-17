@@ -314,8 +314,16 @@
 /Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/sule/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/AutoMapper.dll
 /Users/sule/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
 /Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
 /Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
