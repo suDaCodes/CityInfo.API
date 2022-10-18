@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CityInfo.API.Controllers
 {
     [ApiController]
-    // [Authorize]
+    [Authorize]
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/cities")]
     public class CitiesController : ControllerBase
@@ -30,7 +30,6 @@ namespace CityInfo.API.Controllers
             if (pageSize > maxCitiesPageSize) pageSize = maxCitiesPageSize;
             
             
-            
             var (cityEntities, paginationMetadata) = 
                 await _repository.GetCitiesAsync(name, searchQuery, pageNumber, pageSize);
             
@@ -40,7 +39,17 @@ namespace CityInfo.API.Controllers
             return Ok(_mapper.Map<IEnumerable<CityWithoutPointsOfInterestDto>>(cityEntities));
         }
         
+        /// <summary>
+        /// Get city by id
+        /// </summary>
+        /// <param name="id">The id of the city</param>
+        /// <param name="includePointsOfInterest">Whether or not to include the points of interest</param>
+        /// <returns>IActionResult</returns>
+        /// <response code="200">Returns the requested city</response>
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetCity(int id, bool includePointsOfInterest = false)
         {
             var city = await _repository.GetCityAsync(id, includePointsOfInterest);
