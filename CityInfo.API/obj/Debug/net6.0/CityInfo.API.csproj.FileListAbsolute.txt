@@ -327,3 +327,4 @@
 /Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /Users/sudacode/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/sule/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.Versioning.dll

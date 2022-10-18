@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q6pTrJBaxtOjQnxPl9dBET0CcXhNyR+clHN3VjIfH6u6KWepK/HigBdy0gzj8aUvt5HlyEQNino+XazAURBW7Q==",
+  "dgSpecHash": "alobxYraRjKdkrExEdI4ZglZutjgzxcd4g7kiV8pq9L8hwZQiVCMR80JJxqpE1iJR/+yHBUH34MJbOcHIF2SJw==",
   "success": true,
   "projectFilePath": "/Users/sule/RiderProjects/CityInfo.API/CityInfo.API/CityInfo.API.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/sule/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.10/microsoft.aspnetcore.authentication.jwtbearer.6.0.10.nupkg.sha512",
     "/Users/sule/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.9/microsoft.aspnetcore.jsonpatch.6.0.9.nupkg.sha512",
     "/Users/sule/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.9/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.9.nupkg.sha512",
+    "/Users/sule/.nuget/packages/microsoft.aspnetcore.mvc.versioning/5.0.0/microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "/Users/sule/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/sule/.nuget/packages/microsoft.data.sqlite.core/6.0.9/microsoft.data.sqlite.core.6.0.9.nupkg.sha512",
     "/Users/sule/.nuget/packages/microsoft.entityframeworkcore/6.0.9/microsoft.entityframeworkcore.6.0.9.nupkg.sha512",

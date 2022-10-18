@@ -8,8 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 namespace CityInfo.API.Controllers
 {
     [ApiController]
-    [Authorize]
-    [Route("api/cities")]
+    // [Authorize]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/cities")]
     public class CitiesController : ControllerBase
     {
         private readonly ICityInfoRepository _repository;
@@ -23,7 +24,7 @@ namespace CityInfo.API.Controllers
         }
         
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<CityWithoutPointsOfInterestDTO>>> GetCities(string? name, string? searchQuery, 
+        public async Task<ActionResult<IEnumerable<CityWithoutPointsOfInterestDto>>> GetCities(string? name, string? searchQuery, 
                                                                                                 int pageNumber, int pageSize = 10)
         {
             if (pageSize > maxCitiesPageSize) pageSize = maxCitiesPageSize;
@@ -36,7 +37,7 @@ namespace CityInfo.API.Controllers
             Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(paginationMetadata));
             
             // map entities -> dto
-            return Ok(_mapper.Map<IEnumerable<CityWithoutPointsOfInterestDTO>>(cityEntities));
+            return Ok(_mapper.Map<IEnumerable<CityWithoutPointsOfInterestDto>>(cityEntities));
         }
         
         [HttpGet("{id}")]
@@ -47,7 +48,7 @@ namespace CityInfo.API.Controllers
             if (city == null) return NotFound();
 
             return includePointsOfInterest ? 
-                Ok(_mapper.Map<CityDTO>(city)) : Ok(_mapper.Map<CityWithoutPointsOfInterestDTO>(city));
+                Ok(_mapper.Map<CityDTO>(city)) : Ok(_mapper.Map<CityWithoutPointsOfInterestDto>(city));
         }
     }
 }

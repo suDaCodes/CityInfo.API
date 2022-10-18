@@ -2,9 +2,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CityInfo.API.Models
 {
-    public class PointOfInterestForCreationDTO
+    public class PointOfInterestForUpdateDto
     {
-
         [Required(ErrorMessage = "The name filed is required")]
         [MaxLength(50)]
         public string Name { get; set; } = string.Empty;
